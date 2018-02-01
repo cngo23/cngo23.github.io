@@ -1,0 +1,201 @@
+/*This is the style css for index*/
+
+#BigContainer {
+    height: 100%;
+    width: 100%;
+    
+
+}
+
+#header {
+    width: 100%;
+    height: 12%;
+    background-color: #ffffff;
+    
+
+}
+
+#body {
+    width: 100%;
+    height: 76%;
+    background-image: url("../images/seigaiha.png");
+
+}
+
+#headerborder {
+    width: 100%;
+    height: 0.25%;
+    background-color: #cccccc;
+}
+
+#footerborder {
+    width: 100%;
+    height: 1%;
+    background-color: #dddddd;
+}
+
+#footer {
+    width: 100%;
+    height: 10.75%;
+    background-color: #666666;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: #cccccc;
+}
+
+#logo {
+    float: left;
+    position: relative;
+    width: 13%;
+    height: 100%;
+    background-color: #D2231D;
+    text-align: left;
+    font-size: 165%;
+    margin-left: 13%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+
+#importantlinks {
+    float: right;
+    position: relative;
+    width: 25%;
+    height: 100%;
+    background-color: #ffffff;
+    text-align: left;
+    font-size: 125%;
+    margin-right: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666666;
+}
+
+#leftbox {
+    float: left;
+    position: relative;
+    width: 45%;
+    height: 90%;
+    background-color: #ffffff;
+    margin-left: 13%;
+    margin-top: 1%;
+    border: 2px solid #cccccc;
+
+}
+
+#aboutmebox {
+    width: 98%;
+    height: 13%;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    font-size: 125%;
+    padding: 0% 0% 0% 2%;
+    color: #D2231D;
+}
+
+#aboutborder {
+    width: 90%;
+    height: 0.65%;
+    background-color: #cccccc;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#Mebox {
+    width: 88%;
+    height: 80%;
+    background-color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3% 1% 1% 1%;
+    color: #767575 ;
+}
+
+.img1 { 
+    float: left;
+    width: 125px;
+    height: 165px;
+    padding: 0% 2% 0% 2%;
+}
+
+.clearfix {
+    overflow: auto;
+    
+}
+
+#par1 {
+    font-size: 120%;
+    
+    
+}
+
+#par2 {
+    font-size: 120%;
+    
+}
+
+#rightbox {
+    float: right;
+    position: relative;
+    width: 25%;
+    height: 40%;
+    background-color: #ffffff;
+    margin-right: 10%;
+    margin-top: 1%;
+    border: 2px solid #cccccc;
+}
+
+#cwmbox {
+    width: 98%;
+    height: 20%;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 125%;
+    padding: 0% 0% 0% 2%;
+    color: #D2231D;
+}
+
+#cwmborder {
+    width: 90%;
+    height: 0.65%;
+    background-color: #cccccc;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#cwmlinks {
+    width: 88%;
+    height: 70%;
+    background-color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3% 1% 1% 1%;
+    text-align: center;
+    
+}
+
+#githubimg {
+    width: 75px;
+    height: 75px;
+    padding: 10% 3% 0 3%;
+    border: 0;
+}
+
+#linkedinimg {
+    width: 75px;
+    height: 75px;
+    padding: 10% 3% 0 3%;
+}
+
+#stackedimg {
+    width: 75px;
+    height: 75px;
+    padding: 10% 3% 0 3%;
+}
