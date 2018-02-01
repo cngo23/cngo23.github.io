@@ -48,7 +48,7 @@
 #logo {
     float: left;
     position: relative;
-    width: 13%;
+    width: 15%;
     height: 100%;
     background-color: #D2231D;
     text-align: left;
@@ -87,7 +87,7 @@
 
 }
 
-#aboutmebox {
+#leftTopbox {
     width: 98%;
     height: 13%;
     background-color: #ffffff;
@@ -98,7 +98,7 @@
     color: #D2231D;
 }
 
-#aboutborder {
+#leftTopborder {
     width: 90%;
     height: 0.65%;
     background-color: #cccccc;
@@ -118,8 +118,8 @@
 
 .img1 { 
     float: left;
-    width: 125px;
-    height: 165px;
+    width: 135px;
+    height: 185px;
     padding: 0% 2% 0% 2%;
 }
 
@@ -198,4 +198,13 @@
     width: 75px;
     height: 75px;
     padding: 10% 3% 0 3%;
+}
+
+#comingsooncat {
+    
+    width: 400px;
+    height: 400px;
+    
+    
+    
 }
