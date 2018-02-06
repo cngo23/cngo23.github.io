@@ -59,6 +59,9 @@
     justify-content: center;
     color: #ffffff;
 }
+h1 {
+    word-wrap: break-word;
+}
 
 #importantlinks {
     float: right;
@@ -73,6 +76,7 @@
     align-items: center;
     justify-content: center;
     color: #666666;
+    word-wrap: break-word;
 }
 
 #leftbox {
@@ -114,6 +118,7 @@
     margin-right: auto;
     padding: 3% 1% 1% 1%;
     color: #767575 ;
+    overflow: auto;
 }
 
 .img1 { 
@@ -125,17 +130,6 @@
 
 .clearfix {
     overflow: auto;
-    
-}
-
-#par1 {
-    font-size: 120%;
-    
-    
-}
-
-#par2 {
-    font-size: 120%;
     
 }
 
@@ -200,11 +194,32 @@
     padding: 12% 3% 0 3%;
 }
 
-#comingsooncat {
+#Hangman {
     
-    width: 400px;
-    height: 400px;
+    width: 125px;
+    height: 125px;
+    position: relative;
+    z-index: 1;
    
+}
+
+#rpggame{
+
+    width: 125px;
+    height: 125px;
+    position: relative;
+    z-index: 2;
+
+}
+
+#RockPaperScissor{
+
+    width: 125px;
+    height: 125px;
+    position: relative;
+    z-index: 3;
+    
+    
 }
 
 input[type=text], select, textarea{
@@ -235,4 +250,18 @@ input[type=submit]:hover {
     border-radius: 5px;
     background-color: #ffffff;
     padding: 20px;
-   
+}
+
+a:link {
+    color:#0C8DF9;
+}
+a:hover {
+    color:rgb(42, 100, 224);
+}
+
+a:active {
+    color: black;
+}
+
+
+
