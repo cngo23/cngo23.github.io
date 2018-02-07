@@ -196,30 +196,36 @@ h1 {
 
 #Hangman {
     
-    width: 125px;
-    height: 125px;
+    width: 200px;
+    height: 200px;
     position: relative;
-    z-index: 1;
+    
    
 }
 
 #rpggame{
 
-    width: 125px;
-    height: 125px;
+    width: 200px;
+    height: 200px;
     position: relative;
-    z-index: 2;
+    
 
 }
 
 #RockPaperScissor{
 
-    width: 125px;
-    height: 125px;
+    width: 200px;
+    height: 200px;
     position: relative;
-    z-index: 3;
-    
-    
+
+}
+
+#Triviagame{
+
+    width: 200px;
+    height: 200px;
+    position: relative;
+  
 }
 
 input[type=text], select, textarea{
@@ -263,5 +269,20 @@ a:active {
     color: black;
 }
 
+.imgbox {
+    display: inline-block;
+    position: relative;
+    margin-left: 25px;
+    
 
+}
+
+.imgcaption {
+    position: absolute;
+	display: block;
+	width: 100%;
+	background-color: yellow;
+	margin-top: -15%; /*you can change this*/
+
+}
 
