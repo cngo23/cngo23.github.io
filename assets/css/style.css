@@ -196,8 +196,8 @@ h1 {
 
 #Hangman {
     
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     position: relative;
     
    
@@ -205,8 +205,8 @@ h1 {
 
 #rpggame{
 
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     position: relative;
     
 
@@ -214,16 +214,16 @@ h1 {
 
 #RockPaperScissor{
 
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     position: relative;
 
 }
 
 #Triviagame{
 
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     position: relative;
   
 }
